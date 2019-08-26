@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from 'components/common/Header';
-import GraphComponent from 'components/Graph';
+import GraphComponent from 'components/GraphVis';
 
 const Graph = () => {
   return (
