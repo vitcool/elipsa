@@ -1,0 +1,11 @@
+{
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "always",
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
+  "editor.insertSpaces": true,
+  "workbench.editor.enablePreview": false,
+  "eslint.alwaysShowStatus": true
+}

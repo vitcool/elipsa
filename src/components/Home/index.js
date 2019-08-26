@@ -1,5 +1,5 @@
-import React from "react";
-import PageWrapper from "../common/PageWrapper";
+import React from 'react';
+import PageWrapper from '../common/PageWrapper';
 
 const Home = () => (
   <PageWrapper>

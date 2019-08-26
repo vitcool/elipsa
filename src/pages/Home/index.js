@@ -1,15 +1,15 @@
-import React, { Fragment } from "react";
+import React from 'react';
 
-import Header from "components/common/Header";
+import Header from 'components/common/Header';
 
-import HomeComponent from "components/Home";
+import HomeComponent from 'components/Home';
 
 const Home = () => {
   return (
-    <Fragment>
+    <>
       <Header />
       <HomeComponent />
-    </Fragment>
+    </>
   );
 };
 

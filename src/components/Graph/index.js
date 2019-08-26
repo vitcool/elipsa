@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import PageWrapper from "components/common/PageWrapper";
+import PageWrapper from 'components/common/PageWrapper';
 
 const Graph = () => (
   <PageWrapper>
