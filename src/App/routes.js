@@ -7,7 +7,7 @@ import {
   } from 'react-router-dom';
 
 import Home from 'pages/Home';
-import Graph from 'pages/Graph';
+import Graph from 'pages/GraphVis';
 
 import history from 'helpers/history';
 import { HOME, GRAPH_VIS } from 'constants/routes';
