@@ -12,13 +12,13 @@ const ReactGraphVisForce = () => {
       <ForceGraphNode node={{ id: '5' }} fill="blue" />
       <ForceGraphNode node={{ id: '6' }} fill="red" />
       <ForceGraphNode node={{ id: '7' }} fill="blue" />
-      <ForceGraphLink link={{ source: '0', target: '1' }} />
-      <ForceGraphLink link={{ source: '0', target: '2' }} />
-      <ForceGraphLink link={{ source: '0', target: '3' }} />
-      <ForceGraphLink link={{ source: '0', target: '4' }} />
-      <ForceGraphLink link={{ source: '0', target: '5' }} />
-      <ForceGraphLink link={{ source: '3', target: '6' }} />
-      <ForceGraphLink link={{ source: '3', target: '7' }} />
+      <ForceGraphLink link={{ source: '0', target: '1' }} strokeWidth="123" />
+      <ForceGraphLink link={{ source: '0', target: '2' }} strokeWidth="123" />
+      <ForceGraphLink link={{ source: '0', target: '3' }} strokeWidth="123" />
+      <ForceGraphLink link={{ source: '0', target: '4' }} strokeWidth="123" />
+      <ForceGraphLink link={{ source: '0', target: '5' }} strokeWidth="123" />
+      <ForceGraphLink link={{ source: '3', target: '6' }} strokeWidth="123" />
+      <ForceGraphLink link={{ source: '3', target: '7' }} strokeWidth="123" />
     </ForceGraph>
   );
 };

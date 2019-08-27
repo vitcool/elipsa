@@ -1,0 +1,15 @@
+.modalWrapper {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 1px solid grey;
+  background-color: rgba(187, 181, 190, 0.7);
+}
+
+.modalHeader {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}

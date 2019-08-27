@@ -76,14 +76,14 @@ const data = {
   ],
 };
 
-// optional color definition, defaults to d3 category10 based on domain of categories in data
-const categoryColors = {
-  cat: '#1f77b4',
-  dog: '#ff7f0e',
-};
+// // optional color definition, defaults to d3 category10 based on domain of categories in data
+// const categoryColors = {
+//   cat: '#1f77b4',
+//   dog: '#ff7f0e',
+// };
 
 const ReactGraphSigma = () => {
-  return <Graph data={data} categoryColors={categoryColors} />;
+  return <Graph data={data} />;
 };
 
 export default ReactGraphSigma;
