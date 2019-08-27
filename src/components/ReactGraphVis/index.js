@@ -7,20 +7,48 @@ import './network.css';
 
 const initialGraph = {
   nodes: [
-    { id: 1, label: 'Node 1', title: '<h1>Heyya 1<br/> <a href="http://google.com">Link</a></h1>', color: '#e04141' },
-    { id: 2, label: 'Node 2', title: 'Heyya', color: '#e09c41' },
-    { id: 3, label: 'Node 3', title: 'Heyya', color: '#e0df41' },
-    { id: 4, label: 'Node 4', title: 'Heyya', color: '#7be041' },
-    { id: 5, label: 'Node 5', title: 'Heyya', color: '#41e0c9' },
-    { id: 6, label: 'Node 6', title: 'Heyya', color: '#e04141' },
-    { id: 7, label: 'Node 7', title: 'Heyya', color: '#e09c41' },
-    { id: 8, label: 'Node 8', title: 'Heyya', color: '#e0df41' },
-    { id: 9, label: 'Node 9', title: 'Heyya', color: '#7be041' },
-    { id: 10, label: 'Node 10', title: 'Heyya', color: '#41e0c9' },
-    { id: 11, label: 'Node 11', title: 'Heyya', color: '#e09c41' },
-    { id: 12, label: 'Node 12', title: 'Heyya', color: '#e04141' },
-    { id: 13, label: 'Node 13', title: 'Heyya', color: '#e0df41' },
-    { id: 14, label: 'Node 14', title: 'Heyya', color: '#e04141' },
+    {
+      id: 1, label: 'Node 1', title: '<h1>Heyya 1<br/> <a href="http://google.com">Link</a></h1>', color: '#e04141',
+    },
+    {
+      id: 2, label: 'Node 2', title: 'Heyya', color: '#e09c41',
+    },
+    {
+      id: 3, label: 'Node 3', title: 'Heyya', color: '#e0df41',
+    },
+    {
+      id: 4, label: 'Node 4', title: 'Heyya', color: '#7be041',
+    },
+    {
+      id: 5, label: 'Node 5', title: 'Heyya', color: '#41e0c9',
+    },
+    {
+      id: 6, label: 'Node 6', title: 'Heyya', color: '#e04141',
+    },
+    {
+      id: 7, label: 'Node 7', title: 'Heyya', color: '#e09c41',
+    },
+    {
+      id: 8, label: 'Node 8', title: 'Heyya', color: '#e0df41',
+    },
+    {
+      id: 9, label: 'Node 9', title: 'Heyya', color: '#7be041',
+    },
+    {
+      id: 10, label: 'Node 10', title: 'Heyya', color: '#41e0c9',
+    },
+    {
+      id: 11, label: 'Node 11', title: 'Heyya', color: '#e09c41',
+    },
+    {
+      id: 12, label: 'Node 12', title: 'Heyya', color: '#e04141',
+    },
+    {
+      id: 13, label: 'Node 13', title: 'Heyya', color: '#e0df41',
+    },
+    {
+      id: 14, label: 'Node 14', title: 'Heyya', color: '#e04141',
+    },
   ],
   edges: [
     { from: 5, to: 6, label: 'Member of' },
@@ -71,7 +99,7 @@ const ReactGraphVis = () => {
   const [graph, setGraph] = useState(initialGraph);
 
   const events = {
-    doubleClick: function(event) {
+    doubleClick: function (event) {
       // eslint-disable-next-line no-unused-vars
       const { nodes, edges } = event;
       setGraph(graph1);

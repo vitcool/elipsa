@@ -2,17 +2,18 @@ import React from 'react';
 
 import PageWrapper from 'components/common/PageWrapper';
 
-import ReactGraphD3 from 'components/ReactGraphD3';
+import ReactGraphSigma from 'components/ReactGraphSigma';
 
 import styles from './index.module.scss';
 
-const GraphD3 = () => (
+
+const GraphSigma = () => (
   <PageWrapper>
-    <h1>GraphD3</h1>
+    <h1>GraphSigma</h1>
     <div className={styles.contentWrapper}>
-      <ReactGraphD3 />
+      <ReactGraphSigma />
     </div>
   </PageWrapper>
 );
 
-export default GraphD3;
+export default GraphSigma;

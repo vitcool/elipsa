@@ -42,7 +42,6 @@ div.vis-configuration.vis-config-button {
   display: block;
   width: 495px;
   height: 25px;
-  vertical-align: middle;
   line-height: 25px;
   background-color: #f7f8fa;
   border: 2px solid #ceced0;
@@ -63,7 +62,6 @@ div.vis-configuration.vis-config-item {
   float: left;
   width: 495px;
   height: 25px;
-  vertical-align: middle;
   line-height: 25px;
 }
 div.vis-configuration.vis-config-item.vis-config-s2 {
@@ -582,7 +580,6 @@ div.vis-network div.vis-close:hover {
 }
 div.vis-network div.vis-edit-mode div.vis-button,
 div.vis-network div.vis-manipulation div.vis-button {
-  float: left;
   font-family: verdana;
   font-size: 12px;
   -moz-border-radius: 15px;
@@ -636,7 +633,6 @@ div.vis-network div.vis-manipulation div.vis-label {
   line-height: 25px;
 }
 div.vis-network div.vis-manipulation div.vis-separator-line {
-  float: left;
   display: inline-block;
   width: 1px;
   height: 21px;
